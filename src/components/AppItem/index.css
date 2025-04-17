@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.app-item-list {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.app-image {
+  height: 50px;
+  width: 50px;
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  .app-item-list {
+    height: 100px;
+    width: 100px;
+  }
+
+  .app-image {
+    height: 30px;
+    width: 30px;
+  }
+  .app-name {
+    font-size: 12px;
+  }
+}

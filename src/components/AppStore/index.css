@@ -1,0 +1,92 @@
+/* Write your CSS here */
+
+.bg-contanier {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  height: 100vh;
+  size: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Bree Serif';
+}
+
+.input-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-element {
+  background-color: transparent;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: #1e293b solid 1px;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.search-icon {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: #1e293b solid 1px;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab-list-unordered {
+  padding: 0px;
+  display: flex;
+}
+
+.app-item-unordered-list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+@media (max-width: 576px) {
+  .app-store {
+    width: 100%;
+  }
+
+  .input-element {
+    width: 100%;
+  }
+
+  .app-item-unordered-list {
+    width: 100%;
+  }
+
+  .search-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .input-element {
+    font-size: 14px;
+    height: 40px;
+  }
+}
